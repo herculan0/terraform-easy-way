@@ -14,3 +14,14 @@ git checkout 103-terraformando-na-cloud
 ```
 git checkout 104-advanced-steps
 ```
+
+
+##101 - O Início
+
+```
+terraform help
+```
+
+```
+terraform init
+```
