@@ -16,12 +16,30 @@ git checkout 104-advanced-steps
 ```
 
 
-##101 - O Início
+##102 - Up and Running
 
 ```
-terraform help
+terraform plan
 ```
 
 ```
-terraform init
+terraform plan -out=nginx_container
 ```
+
+```
+terraform apply "nginx_container"
+```
+
+# Alterando a sua Infraestrutura
+
+Troque de 8000 para 8080 e execute o comando de apply novamente
+```
+terraform apply
+```
+
+## Destruindo a sua infraestrutura
+
+```
+terraform destroy
+```
+
